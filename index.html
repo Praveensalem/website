@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="Event-hub">
+        <div class="header">
+            <img src="Assets/Stackly logo.jpg.jpg" alt="">
+            <nav>
+                <ul type="none" class="header-menu">
+                    <li><a href="">HOME</a>
+                        <div class="home-hover">
+                            <p>HOME ONE</p>
+                            <P>HOME TWO</P>
+                            <p>HOME THREE</p>
+                        </div>
+                        <svg class="dropdown-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg>
+                    </li>
+                    <li><a href="">EVENTS</a>
+                        <div class="home-hover">
+                            <p>EVENTS</p>
+                            <p>ABOUT EVENTS</p>
+                            <p>EVENTS VENUE</p>
+                            <p>EVENTS GALLERY</p>
+                            <P>EVENTS DETAILS</P>
+                        </div>
+                        <svg class="dropdown-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg>
+                    </li>
+                    <li><a href="">SPEAKERS</a>
+                        <div class="home-hover">
+                            <p>SPEAKERS</p>
+                            <p>SPEAKERS DETAILS</p>
+                        </div>
+                        <svg class="dropdown-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg>
+                    </li>
+                    <li><a href="">PAGES</a>
+                        <div class="home-hover">
+                            <p>BLOG</p>
+                            <p>BLOG DETAILES</p>
+                            <p>ERROR</p>
+                            <p>FQA</p>
+                            <p>PRICING</p>
+                            <p>PRODUCT</p>
+                            <P>PRODUCT DETAILS</P>
+                        </div>
+                        <svg class="dropdown-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                        </svg>
+                    </li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <div class="header-logo-contanier">
+                    <svg class="search-bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px"
+                        hight="20px">
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg>
+                    <svg class="cart-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20px"
+                        hight="20px">
+                        <path
+                            d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" hight="20px">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </div>
+            </nav>
+        </div>
+        <div class="home-page">
+            <div class="home-firstpage">
+                <h5>18 - 22 Nov, 2025</h5>
+                <h1>BUSINESS<br>SUMMIT 2025</h1>
+                <p>23rd Avenue, 4th Street, Chicago, Illinois, USA</p>
+                <div class="button-arrow">
+                    <button>DISCOVER MORE
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="17px" hight="17px">
+                            <path
+                            d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
+                        </svg>
+                </div>
+                </button>
+            </div>
+            
+            <img class="home-image" src="Assets/Speakers-Photo.jpg"/>
+            
+        </div>
+        <div class="event-page">
+            <button>ABOUT THIS EVENTS</button>
+            <h1>Welcome to Evente, The Original Business & <br> Cultural Entertainment Venue Get Ready to <br> Informative Knowledge Share Skills.</h1>
+            <img src="Assets/Event-img.jpg" width="60%" height="60%">
+        </div>
+        <div class="event-page1">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" hight="100px" width="100px" viewBox="0 0 640 512"><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>6,000+ People's In Person Meet-up</h2>
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" hight="100px" width="100px" viewBox="0 0 640 512"><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8 512 128l-.7 0-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48 0 224 28.2 0 91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16L0 352c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-224-80 0zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128l0 224c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-208c0-8.8-7.2-16-16-16l-80 0zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg>Connect With Industry Leaders</h2>
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" hight="100px" width="100px" viewBox="0 0 512 512"><path d="M184 0c30.9 0 56 25.1 56 56l0 400c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56l0-400c0-30.9 25.1-56 56-56z"/></svg>Sessions On Knowledge Sharing</h2>
+        </div>
+        <div class="event-speakers">
+            <button>LEARN FROM SPEAKERS</button>
+            <h1>Our Amazing & Learned Event Speakrs</h1>
+        </div>
+        <div class="speakers-person">
+            <div class="speakers1">
+                <nav>
+                    <h3>Cody Fisher</h3>
+                    <p>Sr. Software Engineer</p>
+                </nav>
+            </div>
+           <div class="speakers2">
+                <nav>
+                    <h3>Floyd Miles</h3>
+                    <p>CEO</p>
+                </nav>
+            </div>
+            <div class="speakers3">
+                <nav>
+                    <h3>Esther Howard</h3>
+                    <p>Marketing Manager</p>
+                </nav>
+            </div>
+            <div class="speakers4">
+                <nav>
+                    <h3>Devon Lane</h3>
+                    <p>Sr. Software Engineer</p>
+                </nav>
+            </div>
+        </div>
+        <div class="event-schedule">
+            <button>EVENT SCHEDULE</button>
+            <h1>Our Events Schedule Plan</h1>
+            <p>Like previous year this year we are arranging world marketing summit 2025. Its the gathering of all the big</p>
+        </div>
+        <div class="schedule-button">
+            <button>Day 01-jan 10,2025</button>
+            <button>Day 02-jan 11,2025</button>
+            <button>Day 03-jan 12,2025</button>
+            <button>Day 04-jan 13,2025</button>
+        </div>
+        <div class="time-schedule">
+            <div class="event-timing">
+                <h4>09:00 am<br>10:00 am</h4>
+                <h4><span>Topics</span><br>Women in business conference</h4>
+                <h4><span>Speaker</span><br>Ashton Porter</h4>
+                <h4><span>Venue</span><br>Manhattan Club nyc</h4>
+                <nav>
+                    <button>DETAILS
+                        <svg xmlns="http://www.w3.org/2000/svg" hight="15px" width="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+            <div class="event-timing">
+                <h4>10:00 am<br>11:00 am</h4>
+                <h4><span>Topics</span><br>Women in business conference</h4>
+                <h4><span>Speaker</span><br>Ashton Porter</h4>
+                <h4><span>Venue</span><br>Manhattan Club nyc</h4>
+                <nav>
+                    <button>DETAILS
+                        <svg xmlns="http://www.w3.org/2000/svg" hight="15px" width="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+            <div class="event-timing">
+                <h4>11:00 am<br>12:00 pm</h4>
+                <h4><span>Topics</span><br>Women in business conference</h4>
+                <h4><span>Speaker</span><br>Ashton Porter</h4>
+                <h4><span>Venue</span><br>Manhattan Club nyc</h4>
+                <nav>
+                    <button>DETAILS
+                        <svg xmlns="http://www.w3.org/2000/svg" hight="15px" width="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+            <div class="event-timing">
+                <h4>12:00 pm<br>01:00 pm</h4>
+                <h4><span>Topics</span><br>Women in business conference</h4>
+                <h4><span>Speaker</span><br>Ashton Porter</h4>
+                <h4><span>Venue</span><br>Manhattan Club nyc</h4>
+                <nav>
+                    <button>DETAILS
+                        <svg xmlns="http://www.w3.org/2000/svg" hight="15px" width="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div class="offical-sponsors">
+            <button class="sponsor-button">OUR OFFICAL SPONSORS</button>
+            <nav>
+                <h1>Trusted By Over 150<br>Organizations In More<br>Than 50 Countries</h1>
+                <button>BECOME A SPONSOR
+                    <svg xmlns="http://www.w3.org/2000/svg" hight="15px" width="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                </button>
+            </nav>
+            <div class="list-of-sponsors">
+                <div class="sponsors1"></div>
+                <div class="sponsors2"></div>
+                <div class="sponsors3"></div>
+                <div class="sponsors4"></div>
+            </div>
+            <div class="list-of-sponsors">
+                <div class="sponsors5"></div>
+                <div class="sponsors6"></div>
+                <div class="sponsors7"></div>
+                <div class="sponsors8"></div>
+            </div>
+        </div>
+        <div class="tickets-package">
+            <button>TICKETS PACKAGE</button>
+            <h1>Event Pass & Tickets</h1>
+            <p>Like previous year this year we are arranging world<br>marketing summit 2025. Its the gathering of all the big</p>
+        </div>
+        <div class="tickets-package2">
+            <div class="tickets-details">
+                <div class="tickets-price">
+                    <h4>Silver Pass</h4>
+                    <p>when an unknown printer took a galley of type and<br>scrambled it to make type specimen book. It has survived<br>not only five centuries</p>
+                </div>
+                <nav>
+                    <h1>$29.00</h1>
+                    <button>BUY TICKETS
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" hight="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+            <div class="tickets-details">
+                <div class="tickets-price">
+                    <h4>Golden Pass</h4>
+                    <p>when an unknown printer took a galley of type and<br>scrambled it to make type specimen book. It has survived<br>not only five centuries</p>
+                </div>
+                <nav>
+                    <h1>$39.00</h1>
+                    <button>BUY TICKETS
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" hight="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+            <div class="tickets-details">
+                <div class="tickets-price">
+                    <h4>Platinum Pass</h4>
+                    <p>when an unknown printer took a galley of type and<br>scrambled it to make type specimen book. It has survived<br>not only five centuries</p>
+                </div>
+                <nav>
+                    <h1>$59.00</h1>
+                    <button>BUY TICKETS
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15px" hight="15px" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div class="blog-post">
+            <button>BLOG POST</button>
+            <h1>Insights From Business<br>Experts Meetup</h1>
+            <p>Like previous year this year we are arranging world<br>marketing summit 2025. Its the gathering of all the big</p>
+        </div>
+        <div class="blog-post2">
+            <div class="blogers1">
+                <h4>Civil Litigation<br>Paper's Of<br>Conference</h4>
+            </div>
+            <div class="blogers2">
+                <h4>Reinventing<br>Experience Of<br>Creativity</h4>
+            </div>
+            <div class="blogers3">
+                <h4>The Save Soil,<br>Save World Projects<br>In 2025</h4>
+            </div>
+        </div>
+        <div class="footer-section1">
+            <div class="footer1">
+                <div class="footer-page1">
+                    <img src="Assets/Stackly logo.jpg.jpg" alt="">
+                    <p>Middlest 2 East 42nd<br>Streearketplace New York, NY<br>10017</p>
+                    <h4>+123(55) 90067990</h4>
+                    <p>info@gmail.com</p>
+                </div>
+                <div class="footer-page2">
+                    <h1>Quick links</h1>
+                    <p>About this Event</p>
+                    <p>Venue</p>
+                    <p>Speakers</p>
+                    <p>Agenda</p>
+                    <p>Sponsors</p>
+                </div>
+                <div class="footer-page3">
+                    <p>News</p>
+                    <p>Get Tickets</p>
+                    <p>Benefits</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="footer-page4">
+                    <h1>Quick links</h1>
+                    <p>Our expertise, as well as our<br>passion for web design, sets us<br>apart from other agencies.</p>
+                    <form>
+                        <input type="email" placeholder="E-mail Address" id="email">
+                        <svg xmlns="http://www.w3.org/2000/svg" hight="20px" width="20px" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-section2">
+                <div class="footer2">
+                    <p>Copyright © 2025 evente.com. All rights reserved.</p>
+                </div>
+                <div class="footer-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" hight="20px" viewBox="0 0 448 512">><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" hight="20px" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" hight="20px" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" hight="20px" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
